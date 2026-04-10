@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pennsylvania Voice — 2026 Donor Guide</title>
+  <style>
+    :root {
+      --ink: #1a1a1a;
+      --muted: #666;
+      --rule: #e0e0e0;
+      --bg: #fafaf8;
+      --accent: #2c5282;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+    header { border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .pitch {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--ink);
+      margin: 1.5rem 0;
+      padding: 1rem 1.25rem;
+      border-left: 3px solid var(--accent);
+      background: #fff;
+    }
+    section { margin: 2rem 0; }
+    h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem;
+      font-weight: 600;
+    }
+    .grid { display: grid; grid-template-columns: 1fr 2fr; gap: 0.5rem 1.5rem; font-size: 0.95rem; }
+    .grid dt { color: var(--muted); }
+    .grid dd { margin: 0; }
+    p { margin: 0 0 0.75rem; }
+    a { color: var(--accent); }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--muted); }
+    .loading { color: var(--muted); font-style: italic; }
+    .error { color: #c53030; }
+  </style>
+</head>
+<body>
+  <div id="content" class="loading">Loading…</div>
+
+  <script>
+    fetch('org.json')
+      .then(r => r.json())
+      .then(render)
+      .catch(e => {
+        document.getElementById('content').innerHTML =
+          '<p class="error">Could not load org data: ' + e.message + '</p>';
+      });
+
+    function esc(s) {
+      if (s === null || s === undefined) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function render(d) {
+      const safe = k => esc(d[k] || '');
+      const html = `
+        <header>
+          <h1>${safe('Org Name')}</h1>
+          <div class="meta">${safe('Category')} · ${safe('States of Operation')} · Founded ${safe('Founded')}</div>
+        </header>
+
+        ${d['One-Sentence Pitch'] ? `<div class="pitch">${safe('One-Sentence Pitch')}</div>` : ''}
+
+        <section>
+          <h2>At a glance</h2>
+          <dl class="grid">
+            <dt>Investment Track</dt><dd>${safe('Investment Track')}</dd>
+            <dt>Geographic Relevance</dt><dd>${safe('Geographic Relevance')}</dd>
+            <dt>Tax Status</dt><dd>${safe('Tax Status')}${d['Donations Tax Deductible'] === 'Yes' ? ' (tax-deductible)' : ''}</dd>
+            <dt>Issue tags</dt><dd>${safe('Issue / Constituency Tags')}</dd>
+            <dt>Involves primaries?</dt><dd>${safe('Involves Primaries?')}</dd>
+          </dl>
+        </section>
+
+        <section>
+          <h2>What they do</h2>
+          <p>${safe('Primary Focus')}</p>
+        </section>
+
+        <section>
+          <h2>Assessment</h2>
+          <dl class="grid">
+            <dt>Evidence tier</dt><dd>${safe('Evidence Tier')}</dd>
+            <dt>Org health</dt><dd>${safe('Org Health')}</dd>
+            <dt>Transparency</dt><dd>${safe('Transparency')}</dd>
+            <dt>Donor leverage</dt><dd>${safe('Donor Leverage')}</dd>
+          </dl>
+          ${d['Evidence Summary'] ? `<p style="margin-top:1rem">${safe('Evidence Summary')}</p>` : ''}
+        </section>
+
+        ${d['Key Risks & Flags'] ? `
+        <section>
+          <h2>Risks & flags to know</h2>
+          <p>${safe('Key Risks & Flags')}</p>
+        </section>` : ''}
+
+        <section>
+          <h2>Links</h2>
+          <p>
+            ${d['Website'] ? `<a href="${safe('Website')}" target="_blank" rel="noopener">Website</a>` : ''}
+            ${d['Website'] && d['ProPublica URL'] ? ' · ' : ''}
+            ${d['ProPublica URL'] ? `<a href="${safe('ProPublica URL')}" target="_blank" rel="noopener">Financials (ProPublica)</a>` : ''}
+          </p>
+        </section>
+
+        <footer>
+          Prototype donor guide entry · Data exported ${safe('_exported')} · Org ID ${safe('Org ID')}
+        </footer>
+      `;
+      document.getElementById('content').className = '';
+      document.getElementById('content').innerHTML = html;
+    }
+  </script>
+</body>
+</html>
