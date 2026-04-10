@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pennsylvania Voice — 2026 Donor Guide</title>
+  <title>Loading… — 2026 Donor Guide</title>
   <style>
     :root {
       --ink: #1a1a1a;
@@ -51,15 +51,37 @@
     footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--muted); }
     .loading { color: var(--muted); font-style: italic; }
     .error { color: #c53030; }
+    .org-list { list-style: none; padding: 0; }
+    .org-list li { margin: 0.5rem 0; }
   </style>
 </head>
 <body>
   <div id="content" class="loading">Loading…</div>
 
   <script>
-    fetch('org.json')
+    fetch('orgs.json')
       .then(r => r.json())
-      .then(render)
+      .then(envelope => {
+        const orgs = envelope.orgs || [];
+        const params = new URLSearchParams(window.location.search);
+        const requestedId = params.get('id');
+
+        if (!requestedId) {
+          renderIndex(orgs, envelope._exported);
+          return;
+        }
+
+        const org = orgs.find(o => o['Org ID'] === requestedId);
+        if (!org) {
+          document.getElementById('content').innerHTML =
+            '<p class="error">No org found with ID: ' + esc(requestedId) + '</p>' +
+            '<p><a href="?">← See all orgs</a></p>';
+          document.title = 'Not found — 2026 Donor Guide';
+          return;
+        }
+
+        renderOrg(org, envelope._exported);
+      })
       .catch(e => {
         document.getElementById('content').innerHTML =
           '<p class="error">Could not load org data: ' + e.message + '</p>';
@@ -73,9 +95,37 @@
         .replace(/>/g, '&gt;');
     }
 
-    function render(d) {
+    function renderIndex(orgs, exportDate) {
+      document.title = 'All orgs — 2026 Donor Guide';
+      const items = orgs.map(o => {
+        const id = esc(o['Org ID']);
+        const name = esc(o['Org Name']);
+        const cat = esc(o['Category'] || '');
+        const states = esc(o['States of Operation'] || '');
+        return `<li><a href="?id=${id}">${name}</a> <span style="color:#666">— ${cat}${states ? ' · ' + states : ''}</span></li>`;
+      }).join('');
+
+      document.getElementById('content').className = '';
+      document.getElementById('content').innerHTML = `
+        <header>
+          <h1>2026 Donor Guide</h1>
+          <div class="meta">${orgs.length} organizations · Data exported ${esc(exportDate)}</div>
+        </header>
+        <section>
+          <h2>All organizations</h2>
+          <ul class="org-list">${items}</ul>
+        </section>
+        <footer>Prototype donor guide · Click any org to see its profile</footer>
+      `;
+    }
+
+    function renderOrg(d, exportDate) {
       const safe = k => esc(d[k] || '');
+      document.title = (d['Org Name'] || 'Org') + ' — 2026 Donor Guide';
+
       const html = `
+        <p style="margin-bottom:1.5rem"><a href="?">← All orgs</a></p>
+
         <header>
           <h1>${safe('Org Name')}</h1>
           <div class="meta">${safe('Category')} · ${safe('States of Operation')} · Founded ${safe('Founded')}</div>
@@ -126,7 +176,7 @@
         </section>
 
         <footer>
-          Prototype donor guide entry · Data exported ${safe('_exported')} · Org ID ${safe('Org ID')}
+          Prototype donor guide entry · Data exported ${esc(exportDate)} · Org ID ${safe('Org ID')}
         </footer>
       `;
       document.getElementById('content').className = '';
