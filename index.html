@@ -52,40 +52,82 @@
     .loading { color: var(--muted); font-style: italic; }
     .error { color: #c53030; }
     .org-list { list-style: none; padding: 0; }
-    .org-list li { margin: 0.5rem 0; }
+    .org-list li { margin: 0.75rem 0; }
+    .org-list .org-pitch { font-size: 0.9rem; color: var(--muted); margin-top: 0.2rem; }
+    .filter-info { background: #fff; border: 1px solid var(--rule); border-radius: 4px; padding: 0.75rem 1rem; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    .filter-info a { margin-left: 0.5rem; }
+    .tag { display: inline; }
+    .tag a { text-decoration: none; border-bottom: 1px dashed var(--accent); }
+    .tag a:hover { border-bottom-style: solid; }
   </style>
 </head>
 <body>
   <div id="content" class="loading">Loading…</div>
 
   <script>
+    // State abbreviation to full name mapping
+    const STATE_NAMES = {
+      'AL':'Alabama','AK':'Alaska','AZ':'Arizona','AR':'Arkansas','CA':'California',
+      'CO':'Colorado','CT':'Connecticut','DE':'Delaware','FL':'Florida','GA':'Georgia',
+      'HI':'Hawaii','ID':'Idaho','IL':'Illinois','IN':'Indiana','IA':'Iowa',
+      'KS':'Kansas','KY':'Kentucky','LA':'Louisiana','ME':'Maine','MD':'Maryland',
+      'MA':'Massachusetts','MI':'Michigan','MN':'Minnesota','MS':'Mississippi',
+      'MO':'Missouri','MT':'Montana','NE':'Nebraska','NV':'Nevada','NH':'New Hampshire',
+      'NJ':'New Jersey','NM':'New Mexico','NY':'New York','NC':'North Carolina',
+      'ND':'North Dakota','OH':'Ohio','OK':'Oklahoma','OR':'Oregon','PA':'Pennsylvania',
+      'RI':'Rhode Island','SC':'South Carolina','SD':'South Dakota','TN':'Tennessee',
+      'TX':'Texas','UT':'Utah','VT':'Vermont','VA':'Virginia','WA':'Washington',
+      'WV':'West Virginia','WI':'Wisconsin','WY':'Wyoming','DC':'District of Columbia'
+    };
+
+    // Reverse: full name to abbreviation
+    const STATE_ABBREVS = {};
+    for (const [abbr, name] of Object.entries(STATE_NAMES)) {
+      STATE_ABBREVS[name.toLowerCase()] = abbr;
+    }
+
     fetch('orgs.json')
       .then(r => r.json())
       .then(envelope => {
         const orgs = envelope.orgs || [];
         const params = new URLSearchParams(window.location.search);
+
+        // Route: single org
         const requestedId = params.get('id');
-
-        if (!requestedId) {
-          renderIndex(orgs, envelope._exported);
+        if (requestedId) {
+          const org = orgs.find(o => o['Org ID'] === requestedId);
+          if (!org) {
+            showError('No org found with ID: ' + esc(requestedId));
+            return;
+          }
+          renderOrg(org, envelope._exported);
           return;
         }
 
-        const org = orgs.find(o => o['Org ID'] === requestedId);
-        if (!org) {
-          document.getElementById('content').innerHTML =
-            '<p class="error">No org found with ID: ' + esc(requestedId) + '</p>' +
-            '<p><a href="?">← See all orgs</a></p>';
-          document.title = 'Not found — 2026 Donor Guide';
+        // Route: filtered list
+        const stateFilter = params.get('state');
+        const trackFilter = params.get('track');
+        const categoryFilter = params.get('category');
+
+        if (stateFilter || trackFilter || categoryFilter) {
+          renderFilteredIndex(orgs, envelope._exported, { state: stateFilter, track: trackFilter, category: categoryFilter });
           return;
         }
 
-        renderOrg(org, envelope._exported);
+        // Route: full index
+        renderIndex(orgs, envelope._exported);
       })
       .catch(e => {
         document.getElementById('content').innerHTML =
           '<p class="error">Could not load org data: ' + e.message + '</p>';
       });
+
+    function showError(msg) {
+      document.getElementById('content').innerHTML =
+        '<p class="error">' + msg + '</p>' +
+        '<p><a href="?">← See all orgs</a></p>';
+      document.title = 'Not found — 2026 Donor Guide';
+    }
 
     function esc(s) {
       if (s === null || s === undefined) return '';
@@ -95,90 +137,232 @@
         .replace(/>/g, '&gt;');
     }
 
+    // Check if an org operates in a given state (by abbreviation or full name)
+    function orgOperatesInState(org, stateQuery) {
+      const field = org['States of Operation'] || '';
+      if (!field) return false;
+      const q = stateQuery.trim().toLowerCase();
+
+      // Normalize query to both abbreviation and full name
+      let abbr = q.toUpperCase();
+      let fullName = '';
+
+      if (STATE_NAMES[q.toUpperCase()]) {
+        // Query is an abbreviation
+        abbr = q.toUpperCase();
+        fullName = STATE_NAMES[abbr].toLowerCase();
+      } else if (STATE_ABBREVS[q]) {
+        // Query is a full name
+        fullName = q;
+        abbr = STATE_ABBREVS[q];
+      } else {
+        // Unknown — try matching directly
+        fullName = q;
+        abbr = q.toUpperCase();
+      }
+
+      const fieldLower = field.toLowerCase();
+
+      // Check for full name match
+      if (fullName && fieldLower.indexOf(fullName) !== -1) return true;
+
+      // Check for abbreviation as a word boundary match
+      // (avoid matching "MA" inside "MAKING" etc.)
+      const abbrPattern = new RegExp('\\b' + abbr + '\\b');
+      if (abbrPattern.test(field)) return true;
+
+      // Special case: "National" orgs match everything
+      if (fieldLower.indexOf('national') !== -1) return true;
+
+      return false;
+    }
+
+    function orgMatchesTrack(org, trackQuery) {
+      const field = org['Investment Track'] || '';
+      return field.toLowerCase() === trackQuery.trim().toLowerCase();
+    }
+
+    function orgMatchesCategory(org, catQuery) {
+      const field = org['Category'] || '';
+      return field.toLowerCase().indexOf(catQuery.trim().toLowerCase()) !== -1;
+    }
+
+    // Make the States of Operation field clickable
+    function linkifyStates(statesStr) {
+      if (!statesStr) return '';
+      const s = String(statesStr);
+
+      // Check if it starts with "National"
+      if (s.toLowerCase().startsWith('national')) {
+        return '<span class="tag"><a href="?state=National">National</a></span>'
+          + esc(s.slice('National'.length));
+      }
+
+      // Check if it's a single full state name
+      if (STATE_ABBREVS[s.toLowerCase()]) {
+        return '<span class="tag"><a href="?state=' + encodeURIComponent(s) + '">' + esc(s) + '</a></span>';
+      }
+
+      // Try to linkify comma-separated abbreviations
+      // Split on commas, linkify known abbreviations, leave the rest as text
+      const parts = s.split(',');
+      return parts.map(part => {
+        const trimmed = part.trim();
+        // Check if this part starts with a 2-letter state abbreviation
+        const match = trimmed.match(/^([A-Z]{2})\b/);
+        if (match && STATE_NAMES[match[1]]) {
+          const abbr = match[1];
+          const rest = trimmed.slice(2);
+          return '<span class="tag"><a href="?state=' + abbr + '">' + esc(abbr) + '</a></span>' + esc(rest);
+        }
+        return esc(trimmed);
+      }).join(', ');
+    }
+
+    // Make Investment Track clickable
+    function linkifyTrack(track) {
+      if (!track) return '';
+      return '<span class="tag"><a href="?track=' + encodeURIComponent(track) + '">' + esc(track) + '</a></span>';
+    }
+
+    // Make Category clickable
+    function linkifyCategory(cat) {
+      if (!cat) return '';
+      return '<span class="tag"><a href="?category=' + encodeURIComponent(cat) + '">' + esc(cat) + '</a></span>';
+    }
+
+    function renderOrgListItem(o) {
+      const id = esc(o['Org ID']);
+      const name = esc(o['Org Name']);
+      const cat = esc(o['Category'] || '');
+      const states = esc(o['States of Operation'] || '');
+      const pitch = esc(o['One-Sentence Pitch'] || '');
+      return '<li>'
+        + '<a href="?id=' + id + '">' + name + '</a>'
+        + ' <span style="color:#666">— ' + cat + (states ? ' · ' + states : '') + '</span>'
+        + (pitch ? '<div class="org-pitch">' + pitch + '</div>' : '')
+        + '</li>';
+    }
+
     function renderIndex(orgs, exportDate) {
       document.title = 'All orgs — 2026 Donor Guide';
-      const items = orgs.map(o => {
-        const id = esc(o['Org ID']);
-        const name = esc(o['Org Name']);
-        const cat = esc(o['Category'] || '');
-        const states = esc(o['States of Operation'] || '');
-        return `<li><a href="?id=${id}">${name}</a> <span style="color:#666">— ${cat}${states ? ' · ' + states : ''}</span></li>`;
-      }).join('');
+      const items = orgs.map(renderOrgListItem).join('');
 
       document.getElementById('content').className = '';
-      document.getElementById('content').innerHTML = `
-        <header>
-          <h1>2026 Donor Guide</h1>
-          <div class="meta">${orgs.length} organizations · Data exported ${esc(exportDate)}</div>
-        </header>
-        <section>
-          <h2>All organizations</h2>
-          <ul class="org-list">${items}</ul>
-        </section>
-        <footer>Prototype donor guide · Click any org to see its profile</footer>
-      `;
+      document.getElementById('content').innerHTML =
+        '<header>'
+        + '<h1>2026 Donor Guide</h1>'
+        + '<div class="meta">' + orgs.length + ' organizations · Data exported ' + esc(exportDate) + '</div>'
+        + '</header>'
+        + '<section>'
+        + '<h2>All organizations</h2>'
+        + '<ul class="org-list">' + items + '</ul>'
+        + '</section>'
+        + '<footer>Prototype donor guide · Click any org to see its profile</footer>';
+    }
+
+    function renderFilteredIndex(orgs, exportDate, filters) {
+      let filtered = orgs;
+      let filterDesc = [];
+
+      if (filters.state) {
+        filtered = filtered.filter(o => orgOperatesInState(o, filters.state));
+        const stateLabel = STATE_NAMES[filters.state.toUpperCase()] || filters.state;
+        filterDesc.push('State: ' + esc(stateLabel));
+        document.title = stateLabel + ' — 2026 Donor Guide';
+      }
+      if (filters.track) {
+        filtered = filtered.filter(o => orgMatchesTrack(o, filters.track));
+        filterDesc.push('Track: ' + esc(filters.track));
+        document.title = filters.track + ' orgs — 2026 Donor Guide';
+      }
+      if (filters.category) {
+        filtered = filtered.filter(o => orgMatchesCategory(o, filters.category));
+        filterDesc.push('Category: ' + esc(filters.category));
+        document.title = filters.category + ' — 2026 Donor Guide';
+      }
+
+      if (!document.title || document.title.startsWith('Loading')) {
+        document.title = 'Filtered — 2026 Donor Guide';
+      }
+
+      const items = filtered.map(renderOrgListItem).join('');
+
+      const filterBar = '<div class="filter-info">'
+        + 'Showing ' + filtered.length + ' of ' + orgs.length + ' orgs · '
+        + filterDesc.join(' · ')
+        + '<a href="?">Clear filter</a>'
+        + '</div>';
+
+      document.getElementById('content').className = '';
+      document.getElementById('content').innerHTML =
+        '<header>'
+        + '<h1>2026 Donor Guide</h1>'
+        + '<div class="meta">' + orgs.length + ' organizations · Data exported ' + esc(exportDate) + '</div>'
+        + '</header>'
+        + filterBar
+        + '<section>'
+        + '<ul class="org-list">' + (items || '<li style="color:#666">No orgs match this filter.</li>') + '</ul>'
+        + '</section>'
+        + '<footer>Prototype donor guide · <a href="?">See all orgs</a></footer>';
     }
 
     function renderOrg(d, exportDate) {
       const safe = k => esc(d[k] || '');
       document.title = (d['Org Name'] || 'Org') + ' — 2026 Donor Guide';
 
-      const html = `
-        <p style="margin-bottom:1.5rem"><a href="?">← All orgs</a></p>
+      const html =
+        '<p style="margin-bottom:1.5rem"><a href="?">← All orgs</a></p>'
 
-        <header>
-          <h1>${safe('Org Name')}</h1>
-          <div class="meta">${safe('Category')} · ${safe('States of Operation')} · Founded ${safe('Founded')}</div>
-        </header>
+        + '<header>'
+        + '<h1>' + safe('Org Name') + '</h1>'
+        + '<div class="meta">' + linkifyCategory(d['Category']) + ' · ' + linkifyStates(d['States of Operation']) + ' · Founded ' + safe('Founded') + '</div>'
+        + '</header>'
 
-        ${d['One-Sentence Pitch'] ? `<div class="pitch">${safe('One-Sentence Pitch')}</div>` : ''}
+        + (d['One-Sentence Pitch'] ? '<div class="pitch">' + safe('One-Sentence Pitch') + '</div>' : '')
 
-        <section>
-          <h2>At a glance</h2>
-          <dl class="grid">
-            <dt>Investment Track</dt><dd>${safe('Investment Track')}</dd>
-            <dt>Geographic Relevance</dt><dd>${safe('Geographic Relevance')}</dd>
-            <dt>Tax Status</dt><dd>${safe('Tax Status')}${d['Donations Tax Deductible'] === 'Yes' ? ' (tax-deductible)' : ''}</dd>
-            <dt>Issue tags</dt><dd>${safe('Issue / Constituency Tags')}</dd>
-            <dt>Involves primaries?</dt><dd>${safe('Involves Primaries?')}</dd>
-          </dl>
-        </section>
+        + '<section>'
+        + '<h2>At a glance</h2>'
+        + '<dl class="grid">'
+        + '<dt>Investment Track</dt><dd>' + linkifyTrack(d['Investment Track']) + '</dd>'
+        + '<dt>Geographic Relevance</dt><dd>' + safe('Geographic Relevance') + '</dd>'
+        + '<dt>Tax Status</dt><dd>' + safe('Tax Status') + (d['Donations Tax Deductible'] === 'Yes' ? ' (tax-deductible)' : '') + '</dd>'
+        + '<dt>Issue tags</dt><dd>' + safe('Issue / Constituency Tags') + '</dd>'
+        + '<dt>Involves primaries?</dt><dd>' + safe('Involves Primaries?') + '</dd>'
+        + '</dl>'
+        + '</section>'
 
-        <section>
-          <h2>What they do</h2>
-          <p>${safe('Primary Focus')}</p>
-        </section>
+        + '<section>'
+        + '<h2>What they do</h2>'
+        + '<p>' + safe('Primary Focus') + '</p>'
+        + '</section>'
 
-        <section>
-          <h2>Assessment</h2>
-          <dl class="grid">
-            <dt>Evidence tier</dt><dd>${safe('Evidence Tier')}</dd>
-            <dt>Org health</dt><dd>${safe('Org Health')}</dd>
-            <dt>Transparency</dt><dd>${safe('Transparency')}</dd>
-            <dt>Donor leverage</dt><dd>${safe('Donor Leverage')}</dd>
-          </dl>
-          ${d['Evidence Summary'] ? `<p style="margin-top:1rem">${safe('Evidence Summary')}</p>` : ''}
-        </section>
+        + '<section>'
+        + '<h2>Assessment</h2>'
+        + '<dl class="grid">'
+        + '<dt>Evidence tier</dt><dd>' + safe('Evidence Tier') + '</dd>'
+        + '<dt>Org health</dt><dd>' + safe('Org Health') + '</dd>'
+        + '<dt>Transparency</dt><dd>' + safe('Transparency') + '</dd>'
+        + '<dt>Donor leverage</dt><dd>' + safe('Donor Leverage') + '</dd>'
+        + '</dl>'
+        + (d['Evidence Summary'] ? '<p style="margin-top:1rem">' + safe('Evidence Summary') + '</p>' : '')
+        + '</section>'
 
-        ${d['Key Risks & Flags'] ? `
-        <section>
-          <h2>Risks & flags to know</h2>
-          <p>${safe('Key Risks & Flags')}</p>
-        </section>` : ''}
+        + (d['Key Risks & Flags'] ? '<section><h2>Risks & flags to know</h2><p>' + safe('Key Risks & Flags') + '</p></section>' : '')
 
-        <section>
-          <h2>Links</h2>
-          <p>
-            ${d['Website'] ? `<a href="${safe('Website')}" target="_blank" rel="noopener">Website</a>` : ''}
-            ${d['Website'] && d['ProPublica URL'] ? ' · ' : ''}
-            ${d['ProPublica URL'] ? `<a href="${safe('ProPublica URL')}" target="_blank" rel="noopener">Financials (ProPublica)</a>` : ''}
-          </p>
-        </section>
+        + '<section>'
+        + '<h2>Links</h2>'
+        + '<p>'
+        + (d['Website'] ? '<a href="' + safe('Website') + '" target="_blank" rel="noopener">Website</a>' : '')
+        + (d['Website'] && d['ProPublica URL'] ? ' · ' : '')
+        + (d['ProPublica URL'] ? '<a href="' + safe('ProPublica URL') + '" target="_blank" rel="noopener">Financials (ProPublica)</a>' : '')
+        + '</p>'
+        + '</section>'
 
-        <footer>
-          Prototype donor guide entry · Data exported ${esc(exportDate)} · Org ID ${safe('Org ID')}
-        </footer>
-      `;
+        + '<footer>'
+        + 'Prototype donor guide entry · Data exported ' + esc(exportDate) + ' · Org ID ' + safe('Org ID')
+        + '</footer>';
+
       document.getElementById('content').className = '';
       document.getElementById('content').innerHTML = html;
     }
