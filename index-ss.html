@@ -86,7 +86,7 @@
       STATE_ABBREVS[name.toLowerCase()] = abbr;
     }
 
-    fetch('orgs.json')
+fetch('https://raw.githubusercontent.com/roymichaeldonald/progdonorguide/main/orgs.json')
       .then(r => r.json())
       .then(envelope => {
         const orgs = envelope.orgs || [];
