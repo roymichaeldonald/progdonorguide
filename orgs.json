@@ -1,6 +1,6 @@
 {
   "_exported": "2026-05-11",
-  "_count": 47,
+  "_count": 46,
   "orgs": [
     {
       "Org ID": "ORG-039",
@@ -795,39 +795,6 @@
       "Key Contact": ""
     },
     {
-      "Org ID": "ORG-211",
-      "Org Name": "All Voting is Local",
-      "Include": "Tier 2",
-      "Scope": "State",
-      "Funded By": "",
-      "Website": "https://allvotingislocal.org",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Duplicate of existing row in sheet — check existing row for ProPublica URL",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
       "Org ID": "ORG-212",
       "Org Name": "MIPoder",
       "Include": "Tier 2",
@@ -1555,6 +1522,39 @@
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
