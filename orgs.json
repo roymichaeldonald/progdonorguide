@@ -1,6 +1,6 @@
 {
-  "_exported": "2026-05-10",
-  "_count": 47,
+  "_exported": "2026-05-11",
+  "_count": 11,
   "orgs": [
     {
       "Org ID": "ORG-042",
@@ -65,68 +65,6 @@
       "Key Contact": ""
     },
     {
-      "Org ID": "ORG-231",
-      "Org Name": "Protect Democracy",
-      "Include": "?",
-      "Website": "https://protectdemocracy.org/our-work/protecting-elections/",
-      "Founded": 2017,
-      "Tax Status": "501(c)(3) + 501(c)(4)",
-      "Donations Tax Deductible": "Mixed",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/814777062 (Protect Democracy Project, c3 arm)",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Rule of Law & Election Protection",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Rule of law, Democracy defense",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "A cross-ideological rule-of-law organization that has filed 100+ lawsuits defending democratic norms and election integrity — one of the few groups with the legal firepower and bipartisan credibility to fight election subversion in court.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Protect Democracy Project",
-      "Affiliated C4": "Protect Democracy United",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-233",
-      "Org Name": "Common Cause",
-      "Include": "?",
-      "Website": "https://www.commoncause.org/issues/voting-fair-representation-protecting-your-voice/",
-      "Founded": 1970,
-      "Tax Status": "501(c)(3) + 501(c)(4)",
-      "Donations Tax Deductible": "Mixed",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/526078441 (national c4 arm — c3 Education Fund at https://projects.propublica.org/nonprofits/organizations/311705370)",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Democracy Reform Advocacy",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Redistricting, Campaign finance",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "A fifty-year institution fighting for redistricting reform, campaign finance limits, and voting rights through litigation, advocacy, and state-level chapters in the battleground states where the rules of democracy are actively being contested.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Common Cause Education Fund",
-      "Affiliated C4": "Common Cause",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
       "Org ID": "ORG-090",
       "Org Name": "Third Act",
       "Include": "Tier 1",
@@ -155,68 +93,6 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "Organizing 100,000+ senior volunteers around two interlocking 2026 campaigns: Make Polluters Pay (pushing state climate superfund legislation in MA, NJ, MD, CT, and others) and democracy protection (protests, civic engagement, and electoral mobilization in AZ, PA, MI, NH, WI, and GA ahead of November).",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-111",
-      "Org Name": "Pennsylvania Center for Working Families (PCWF)",
-      "Include": "maybe",
-      "Website": "Lookup needed",
-      "Founded": "Lookup needed",
-      "Tax Status": "Unknown",
-      "Donations Tax Deductible": "Unknown",
-      "ProPublica URL": "Search ProPublica -- no independent entity found in this session",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "Progressive coalition coordination table",
-      "Primary Focus": "Coordinates shared power-building strategy across the six PA organizing groups (AACFPA, Make the Road PA, OnePA, PA Stands Up Institute, Pittsburgh United, POWER Interfaith); works closely with Pennsylvania Alliance (state donor table) toward the upcoming governing moment.",
-      "Issue / Constituency Tags": "Multi-issue, Civic engagement, Voting rights",
-      "Involves Primaries?": "no",
-      "States of Operation": "Pennsylvania (statewide)",
-      "Geographic Relevance": "High",
-      "Investment Track": "Verify",
-      "Recommended Gift Size Range": "Lookup needed",
-      "Evidence Tier": "C",
-      "Evidence Summary": "Described as coordinating coalition of the six orgs listed; works with Pennsylvania Alliance (donor table). No independent entity, website, or 990 found in this session -- may be an informal coalition name rather than a standalone fundable org.",
-      "Org Health": "Unknown",
-      "Transparency": "Unknown",
-      "Donor Leverage": "Unknown",
-      "One-Sentence Pitch": "N/A -- entity structure unverified; may be an informal coordination structure rather than a direct investment target.",
-      "Key Risks & Flags": "(1) No standalone entity found -- may be a coalition name rather than a fundable org. (2) If it is a fundable entity, EIN, tax status, and financials entirely unverified. (3) Relationship to Pennsylvania Alliance and Pennsylvania Voice (ORG-071) unclear -- may overlap with existing sheet entries.",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-232",
-      "Org Name": "Lawyers Committee for Civil Rights Under Law",
-      "Include": "?",
-      "Website": "https://www.lawyerscommittee.org/project/election-protection/",
-      "Founded": 1963,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/520799246",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Civil Rights Legal Advocacy",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Civil rights",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "Sixty years of civil rights legal advocacy, including operation of the 866-OUR-VOTE election protection hotline — the voter assistance infrastructure that answers the phone on Election Day when voters face suppression or confusion at the polls.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Lawyers Committee For Civil Rights Under Law",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
       "Key Contact": ""
     },
     {
@@ -251,99 +127,6 @@
       "Key Contact": ""
     },
     {
-      "Org ID": "ORG-229",
-      "Org Name": "Brennan Center for Justice",
-      "Include": "?",
-      "Website": "https://www.brennancenter.org/topics/voting-elections",
-      "Founded": 1995,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/133839293",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Voting Rights Research & Litigation",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Democracy reform",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "The country's leading voting rights research and litigation institution — setting the evidentiary foundation that other orgs build on, from voter suppression documentation to redistricting challenges to election law reform.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "William J Brennan Jr Center For Justice Inc",
-      "Affiliated C4": "Brennan Center Strategic Fund Inc",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-230",
-      "Org Name": "Campaign Legal Center",
-      "Include": "?",
-      "Website": "https://campaignlegal.org/issues/voting-and-elections",
-      "Founded": 2002,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/43608387",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Campaign Finance & Voting Rights Litigation",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Campaign finance",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "The foremost nonpartisan legal organization fighting campaign finance corruption and voting rights violations in court — filing the cases that protect ballot access and electoral integrity when legislation falls short.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Campaign Legal Center Inc",
-      "Affiliated C4": "Campaign Legal Center Action",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-208",
-      "Org Name": "Voter Participation Center",
-      "Include": "?",
-      "Website": "https://www.voterparticipation.org",
-      "Founded": 2003,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/550889748",
-      "Category": "National Program / GOTV",
-      "Sub-type": "Direct Mail Voter Registration",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "People of color, Unmarried women, Youth voters",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "The largest direct-mail voter registration organization in the country — 6M+ Americans registered, with RCT-validated effectiveness, focused on the underrepresented triad of people of color, unmarried women, and young voters.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "The Voter Participation Center",
-      "Affiliated C4": "Center for Voter Information",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "Running the largest mail-based voter registration effort in the organization's history — 4.7M+ applications sent nationally, with digital follow-up through November 2026 — in direct response to declining turnout among people of color, young voters, and unmarried women in 2024 and escalating federal attacks on voter registration access.",
-      "Key Contact": ""
-    },
-    {
       "Org ID": "ORG-056",
       "Org Name": "Movement Voter Project",
       "Include": "Tier 1",
@@ -372,37 +155,6 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "Funding the Battleground Alliance — a coordinated coalition of local and national organizing groups in every top House flip district — through a two-phase 2026 strategy: accountability organizing through June to hold vulnerable Republicans on the record, then voter mobilization July through November to translate that groundwork into a Democratic House majority.",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-217",
-      "Org Name": "Vote Riders",
-      "Include": "?",
-      "Website": "https://voteriders.org/",
-      "Founded": 2012,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/455081831",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Voter ID Assistance",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Voter ID",
-      "Involves Primaries?": "",
-      "States of Operation": "AZ, FL, GA, MI, NC, OH, PA, TX, VA, WI",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "The only national organization laser-focused on helping voters obtain the ID they need to cast a ballot — paying for documents and fees directly, with Candid Platinum transparency and active organizers in PA and WI.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Voteriders",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "Deploying staff in seven states (AZ, FL, GA, NC, PA, TX, WI) and prioritizing three more (MI, OH, VA) for 2026 voter ID assistance, while fighting the SAVE Act and other proof-of-citizenship requirements at the federal and state level — the most aggressive state-level expansion in the organization's history.",
       "Key Contact": ""
     },
     {
@@ -464,37 +216,6 @@
       "C3 Legal Name": "",
       "Affiliated C4": "",
       "Fiscal Sponsor": "LCV Education Fund (c3 activity) / League of Conservation Voters (c4 activity)",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-227",
-      "Org Name": "Red Wine & Blue Education Fund",
-      "Include": "?",
-      "Website": "https://redwine.blue",
-      "Founded": 2019,
-      "Tax Status": "501(c)(4)",
-      "Donations Tax Deductible": "No",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/844355156",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Suburban Women Organizing",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Suburban women, Multi-issue",
-      "Involves Primaries?": "",
-      "States of Operation": "Ohio, Michigan, North Carolina, Pennsylvania, Virginia",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "The organizing infrastructure for suburban women who left the Republican Party — 600,000+ members mobilized around democracy and extremism in OH, MI, NC, PA, and VA, in exactly the suburban geographies that decide swing-state outcomes.",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "Innovation Ohio Education Fund",
       "2026 Priorities": "",
       "Key Contact": ""
     },
@@ -621,846 +342,1125 @@
       "Fiscal Sponsor": "",
       "2026 Priorities": "Following the successful April 2026 redistricting referendum, pivoting to BIPOC voter mobilization for the November House races in the redrawn Virginia congressional map — with particular focus on the competitive districts created by the new lines and ongoing voter registration in communities of color statewide.",
       "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-200",
-      "Org Name": "Asian American Community Fund of Pennsylvania",
-      "Include": "?",
-      "Website": "https://aacfpennsylvania.org",
-      "Founded": 2019,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "Not found on ProPublica — org is new (2019) and likely a 990-N filer. Search: https://projects.propublica.org/nonprofits/search?q=asian+american+community+fund+pennsylvania",
-      "Category": "Targeted Community Org",
-      "Sub-type": "State AAPI Table",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "AAPI voters, Civic engagement",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-201",
-      "Org Name": "Make The Road PA",
-      "Include": "?",
-      "Website": "https://www.maketheroadpa.org/",
-      "Founded": "",
-      "Tax Status": "501(c)(3) likely",
-      "Donations Tax Deductible": "Yes likely",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/843988830 (Make The Road States Inc — confirm PA chapter covered under this entity)",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Latino Community Organizing",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Latino voters, Immigration, Workers",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-202",
-      "Org Name": "OnePA Activists United",
-      "Include": "?",
-      "Website": "https://www.onepa.org",
-      "Founded": 2022,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/882735817",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Multi-racial Power Building",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Black communities, Workers, Multi-issue",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-203",
-      "Org Name": "Pennsylvania Stands Up Institute",
-      "Include": "?",
-      "Website": "https://pastandsup.org",
-      "Founded": 2019,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/854055323",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Multi-racial Statewide Organizing",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Multi-issue, Workers, Multi-racial",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-204",
-      "Org Name": "Pittsburgh United",
-      "Include": "?",
-      "Website": "https://pittsburghunited.org",
-      "Founded": "",
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/208534071",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Coalition / Labor-Community",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Workers, Housing, Environment, Multi-issue",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-205",
-      "Org Name": "POWER Interfaith",
-      "Include": "?",
-      "Website": "https://powerinterfaith.org",
-      "Founded": 2011,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/274327457",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Congregation-based Community Organizing",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Faith communities, Multi-issue, Criminal justice, Climate",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-206",
-      "Org Name": "Pennsylvania Center for Working Families",
-      "Include": "?",
-      "Website": "",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Not found on ProPublica or 527 Explorer — may not be a distinct legal entity. Search: https://projects.propublica.org/nonprofits/search?q=pennsylvania+center+working+families",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "Coordinating Table",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Multi-issue",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-207",
-      "Org Name": "Pennsylvania Voice",
-      "Include": "?",
-      "Website": "",
-      "Founded": "",
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "Duplicate of existing row in sheet — check existing row for ProPublica URL",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "Reflective Democracy",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Redistricting, Census",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-209",
-      "Org Name": "The Civics Center",
-      "Include": "?",
-      "Website": "https://www.thecivicscenter.org",
-      "Founded": 2018,
-      "Tax Status": "501(c)(3) via fiscal sponsor",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "Fiscally sponsored by Community Partners — no standalone ProPublica filing. Search: https://projects.propublica.org/nonprofits/search?q=civics+center+voter+registration",
-      "Category": "National Program / GOTV",
-      "Sub-type": "High School Voter Registration",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Youth voters, Civic education",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-210",
-      "Org Name": "VoPro Pros",
-      "Include": "?",
-      "Website": "https://www.vopropros.com",
-      "Founded": 2020,
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Not found on ProPublica or 527 Explorer — unincorporated volunteer org, not a formal nonprofit",
-      "Category": "National Program / GOTV",
-      "Sub-type": "Volunteer Voter Protection",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Ballot curing",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-211",
-      "Org Name": "All Voting is Local",
-      "Include": "?",
-      "Website": "https://allvotingislocal.org",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Duplicate of existing row in sheet — check existing row for ProPublica URL",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-212",
-      "Org Name": "MIPoder",
-      "Include": "?",
-      "Website": "https://mi-poder.org/",
-      "Founded": "",
-      "Tax Status": "501(c)(4)",
-      "Donations Tax Deductible": "No",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/881133984",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Latino Civic Engagement",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Latino voters, Michigan",
-      "Involves Primaries?": "",
-      "States of Operation": "Michigan",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-213",
-      "Org Name": "Turn PA Blue",
-      "Include": "?",
-      "Website": "https://www.turnpablue.org/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Not found on ProPublica or 527 Explorer — likely unincorporated volunteer org",
-      "Category": "National Program / GOTV",
-      "Sub-type": "Volunteer GOTV",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-214",
-      "Org Name": "Promote the Vote PA",
-      "Include": "?",
-      "Website": "https://www.promotethevote.us/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "FLAG: Two 'Promote the Vote' entities found on ProPublica — PA entity: https://projects.propublica.org/nonprofits/organizations/882119663 | MI entity: https://projects.propublica.org/nonprofits/organizations/854226298 — confirm which applies before Phase 3",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-215",
-      "Org Name": "New Pennsylvania Project",
-      "Include": "?",
-      "Website": "https://www.newpaproject.org/",
-      "Founded": 2020,
-      "Tax Status": "501(c)(4)",
-      "Donations Tax Deductible": "No",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/861900180",
-      "Category": "National Program / GOTV",
-      "Sub-type": "Voter Registration",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "People of color, Youth voters, Immigrants",
-      "Involves Primaries?": "",
-      "States of Operation": "Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-216",
-      "Org Name": "Red2Blue",
-      "Include": "?",
-      "Website": "https://www.red2blue.org/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Not found on ProPublica or 527 Explorer — tax status and grantability unconfirmed",
-      "Category": "National Program / GOTV",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "New York, Pennsylvania",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-218",
-      "Org Name": "Ground Truth",
-      "Include": "?",
-      "Website": "",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Not found on ProPublica or 527 Explorer — org identity unconfirmed. Hits for 'Ground Truth' on ProPublica are unrelated (Alaska trekking org, MD policy lab). Needs human research.",
-      "Category": "",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-219",
-      "Org Name": "Fair Fight GA",
-      "Include": "?",
-      "Website": "https://www.fairfight.com/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Duplicate of existing Fair Fight Action row in sheet — check existing row for ProPublica URL",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Georgia",
-      "Involves Primaries?": "",
-      "States of Operation": "Georgia",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-220",
-      "Org Name": "North Carolina Black Alliance",
-      "Include": "?",
-      "Website": "https://ncblackalliance.org",
-      "Founded": "",
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/562210571",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Black Political Power",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Black communities, Voting rights, Criminal justice, Education",
-      "Involves Primaries?": "",
-      "States of Operation": "North Carolina",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-221",
-      "Org Name": "North Carolina Asian Americans Together",
-      "Include": "?",
-      "Website": "https://ncaat.org",
-      "Founded": "",
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/813125435",
-      "Category": "Targeted Community Org",
-      "Sub-type": "AAPI Civic Engagement",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "AAPI voters, Youth voters, North Carolina",
-      "Involves Primaries?": "",
-      "States of Operation": "North Carolina",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-222",
-      "Org Name": "Siembra NC",
-      "Include": "?",
-      "Website": "https://www.siembranc.org",
-      "Founded": 2017,
-      "Tax Status": "501(c)(4)",
-      "Donations Tax Deductible": "No",
-      "ProPublica URL": "Somos Siembra (c3 arm, tax-deductible): https://projects.propublica.org/nonprofits/organizations/872266951 | Siembra NC (c4) files separately — search: https://projects.propublica.org/nonprofits/search?q=siembra+nc",
-      "Category": "Targeted Community Org",
-      "Sub-type": "Latine Base-Building",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Latino voters, Immigration, Workers, North Carolina",
-      "Involves Primaries?": "",
-      "States of Operation": "North Carolina",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-223",
-      "Org Name": "Innovation Ohio Education Fund",
-      "Include": "?",
-      "Website": "https://innovationohioedfund.org",
-      "Founded": 2012,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/274562105",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "Progressive Policy Research",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Multi-issue, Ohio",
-      "Involves Primaries?": "",
-      "States of Operation": "Ohio",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-224",
-      "Org Name": "Ohio Citizen Action Education Fund",
-      "Include": "?",
-      "Website": "https://www.ohiocitizen.org/education_fund",
-      "Founded": "",
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/341208940",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "Consumer & Environmental Advocacy",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Environment, Consumer rights, Ohio",
-      "Involves Primaries?": "",
-      "States of Operation": "Ohio",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-225",
-      "Org Name": "Ohio Organizing Collaborative",
-      "Include": "?",
-      "Website": "https://www.ohorganizing.org/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Duplicate of existing row in sheet — check existing row for ProPublica URL",
-      "Category": "Civic Table / State Infrastructure",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "Ohio",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-226",
-      "Org Name": "Ohio Student Association",
-      "Include": "?",
-      "Website": "https://ohiostudentassociation.org/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "Duplicate of existing row in sheet — check existing row for ProPublica URL",
-      "Category": "Targeted Community Org",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "Ohio",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-228",
-      "Org Name": "Democracy Defenders Fund",
-      "Include": "?",
-      "Website": "https://www.democracydefendersfund.org/",
-      "Founded": 2024,
-      "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/932740517",
-      "Category": "Legal Defense & Voter Access",
-      "Sub-type": "Election Protection Litigation",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "Voting rights, Election protection",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
-    },
-    {
-      "Org ID": "ORG-234",
-      "Org Name": "The Voter Project",
-      "Include": "?",
-      "Website": "https://www.thevoterproject.com/",
-      "Founded": "",
-      "Tax Status": "",
-      "Donations Tax Deductible": "",
-      "ProPublica URL": "FLAG: No clear match found. Closest ProPublica hits are 'Voter Project Fund' (https://projects.propublica.org/nonprofits/organizations/863082391, PA, c3, 2022) and 'Voter Registration Project' (https://projects.propublica.org/nonprofits/organizations/264802468, DC) — neither confirmed as thevoterproject.com. Needs human verification.",
-      "Category": "",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "",
-      "Affiliated C4": "",
-      "Fiscal Sponsor": "",
-      "2026 Priorities": "",
-      "Key Contact": ""
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
