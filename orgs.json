@@ -1,6 +1,6 @@
 {
   "_exported": "2026-06-11",
-  "_count": 28,
+  "_count": 33,
   "orgs": [
     {
       "Org ID": "ORG-001",
@@ -27,7 +27,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A coalition of Alaska nonprofits and community groups working together to strengthen democracy through nonpartisan voter education and engagement — empowering Alaskans in every community to participate in elections at every level.",
+      "One-Sentence Pitch": "A coalition of Alaska nonprofits and community groups working to strengthen democracy through nonpartisan voter education and engagement across the state.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Neo Philanthropy Inc.",
       "Affiliated C4": "Neo Philanthropy Action Fund Inc.",
@@ -60,7 +60,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A nonpartisan organization fighting for free and fair elections at the state and local level, with boots-on-the-ground programs in eight key battleground states advancing voter registration access and removing voting barriers.",
+      "One-Sentence Pitch": "A nonpartisan organization working for free and fair elections at the state and local level, with field programs in eight battleground states focused on voter registration access and removing voting barriers.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "All Voting Is Local",
       "Affiliated C4": "All Voting Is Local Action",
@@ -93,7 +93,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A nonpartisan watchdog using FOIA requests and litigation to force government transparency — filing lawsuits against federal agencies and the Trump administration to expose corruption and defend the rule of law.",
+      "One-Sentence Pitch": "A nonpartisan watchdog using FOIA requests and litigation to force government transparency, including lawsuits against federal agencies and the Trump administration.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "American Oversight Inc",
       "Affiliated C4": "",
@@ -192,7 +192,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A Nashville-based civic table coordinating Tennessee nonprofits to register and turn out Black, Latino, immigrant, low-income, and young voters — building durable civic power in a state with chronically low turnout among underrepresented communities.",
+      "One-Sentence Pitch": "A Nashville-based civic table coordinating Tennessee nonprofits to register and turn out Black, Latino, immigrant, low-income, and young voters in a state with chronically low turnout among underrepresented communities.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Civic TN",
       "Affiliated C4": "",
@@ -225,7 +225,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A national legal organization using litigation, regulatory engagement, and public education to defend democratic institutions and fight back against the Trump administration — filing 150+ legal actions in 2025 alone.",
+      "One-Sentence Pitch": "A national legal organization using litigation, regulatory engagement, and public education to defend democratic institutions against the Trump administration, with 150+ legal actions filed in 2025.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Democracy Forward Foundation",
       "Affiliated C4": "Democracy Forward",
@@ -258,7 +258,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A national voting rights litigation organization challenging voter ID laws, registration barriers, and election administration abuses in court — formerly the Fair Elections Legal Network, operating since 2006.",
+      "One-Sentence Pitch": "A national voting rights litigation organization — formerly the Fair Elections Legal Network — challenging voter ID laws, registration barriers, and election administration practices in court since 2006.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Fair Elections Center",
       "Affiliated C4": "",
@@ -291,7 +291,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Stacey Abrams's voter protection organization — fighting suppression through litigation, voter education, and election administration advocacy in Georgia and nationally, with a c3 giving vehicle for tax-deductible donations via Tides.",
+      "One-Sentence Pitch": "Stacey Abrams's voter protection organization, fighting suppression through litigation, voter education, and election administration advocacy in Georgia and nationally, with a c3 giving vehicle via Tides for tax-deductible donations.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Fair Fight Action Civic Engagement and Voter Protection Fund (a fund of Tides Foundation)",
       "Affiliated C4": "Fair Fight Action Inc",
@@ -324,7 +324,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Georgia's environmental voter organization — mobilizing Georgians around climate and environmental justice through civic engagement and holding state legislators accountable for their conservation votes.",
+      "One-Sentence Pitch": "Georgia's environmental voter organization, mobilizing Georgians around climate and environmental justice and holding state legislators accountable for their conservation votes.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Georgia Conservation Voters Education Fund Inc",
       "Affiliated C4": "Georgia Conservation Voters Inc",
@@ -357,7 +357,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Maine's only statewide immigration legal services organization — providing free and low-cost legal help to 5,000+ immigrants annually while advocating for systemic policy change at the state and federal level.",
+      "One-Sentence Pitch": "Maine's only statewide immigration legal services organization, providing free and low-cost legal help to 5,000+ immigrants annually while advocating for state and federal policy change.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Immigrant Legal Advocacy Project",
       "Affiliated C4": "",
@@ -390,7 +390,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The c3 arm of the Indivisible movement — providing civic education, training, and organizing support to a national network of local progressive groups fighting for progressive policy at every level of government.",
+      "One-Sentence Pitch": "The c3 arm of the Indivisible movement, providing civic education, training, and organizing support to a national network of local progressive groups.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Indivisible Civics Inc",
       "Affiliated C4": "Indivisible Project",
@@ -423,7 +423,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A national climate elections organization recruiting, training, and fundraising for down-ballot progressive candidates fighting for climate justice and a just transition from fossil fuels at the city, county, and state level.",
+      "One-Sentence Pitch": "A national climate elections organization recruiting, training, and fundraising for down-ballot progressive candidates working on climate and energy transition at the city, county, and state level.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Lead Locally Education Fund",
       "Affiliated C4": "",
@@ -456,7 +456,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The national environmental voter organization — scoring members of Congress on conservation votes, running field programs in battleground states, and holding elected officials accountable for climate and environmental policy.",
+      "One-Sentence Pitch": "The national environmental voter organization, scoring members of Congress on conservation votes and running field programs in battleground states.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "League of Conservation Voters Education Fund",
       "Affiliated C4": "League of Conservation Voters",
@@ -489,7 +489,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Maine's nonpartisan economic policy research organization — providing rigorous analysis on tax, labor, and budget policy to advance economic justice for low- and moderate-income Mainers since 1994.",
+      "One-Sentence Pitch": "A nonpartisan economic policy research organization providing analysis on tax, labor, and budget policy in Maine, with a focus on low- and moderate-income residents since 1994.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Maine Center for Economic Policy",
       "Affiliated C4": "",
@@ -522,7 +522,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Maine's longest-running progressive grassroots training organization — recruiting and training civic leaders, running voter education programs, and partnering with Maine People's Alliance on statewide campaigns for economic and social change since 1984.",
+      "One-Sentence Pitch": "A Maine progressive grassroots training organization recruiting and training civic leaders, running voter education programs, and partnering with Maine People's Alliance on statewide campaigns since 1984.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Maine People's Resource Center",
       "Affiliated C4": "Maine People's Alliance",
@@ -555,7 +555,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The tax-deductible giving vehicle for the Movement Voter Project — channeling c3 dollars to year-round local organizing groups building progressive power in battleground states and communities of color.",
+      "One-Sentence Pitch": "The c3 giving vehicle for the Movement Voter Project, channeling tax-deductible donations to year-round local organizing groups in battleground states and communities of color.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Movement Voter Fund (a fund of Tides Foundation)",
       "Affiliated C4": "Movement Voter Project",
@@ -588,7 +588,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The premier progressive donor intermediary — vetting and funding 350+ year-round local organizing groups in 42 states, passing 100% of donations to grantees, with a track record of backing the groups that helped win key Senate and governor races in 2022 and 2024.",
+      "One-Sentence Pitch": "A progressive donor intermediary vetting and funding 350+ year-round local organizing groups in 42 states, with a policy of passing 100% of donations to grantees.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "All Hands on Deck Network (d/b/a Movement Voter Project)",
       "Affiliated C4": "Movement Voter Project",
@@ -621,7 +621,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A nonpartisan pooled fund defending U.S. democracy through grantmaking across three strategies: protecting civil society, securing elections, and holding accountable those who undermine the rule of law — formerly the Trusted Elections Fund, now operating under New Venture Fund.",
+      "One-Sentence Pitch": "A pooled fund supporting democracy defense through grantmaking across three areas: protecting civil society, securing elections, and accountability — formerly the Trusted Elections Fund, now operating under New Venture Fund.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Moxie Fund (a project of New Venture Fund)",
       "Affiliated C4": "Moxie Action Fund (via Sixteen Thirty Fund)",
@@ -654,7 +654,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The national membership organization for ~200 community radio stations — advocating for public policy and funding that sustains noncommercial local radio, which serves as critical civic infrastructure in rural and underserved communities.",
+      "One-Sentence Pitch": "The national membership organization for approximately 200 community radio stations, advocating for public policy and funding that sustains noncommercial local radio.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "National Federation of Community Broadcasters Inc",
       "Affiliated C4": "",
@@ -687,7 +687,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "North Carolina's AAPI civic power organization — building cross-racial community and political participation among the state's rapidly growing Asian American population through voter outreach, youth programming, and leadership development since 2016.",
+      "One-Sentence Pitch": "A North Carolina organization building civic participation among the state's Asian American population through voter outreach, youth programming, and leadership development since 2016.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "North Carolina Asian Americans Together",
       "Affiliated C4": "NCAAT in Action",
@@ -720,7 +720,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "An intergovernmental network of Black elected officials and community activists in North Carolina — advancing systemic policy change on voting rights, environmental justice, criminal justice reform, healthcare, and economic equity for Black communities statewide.",
+      "One-Sentence Pitch": "A network of Black elected officials and community activists in North Carolina working on voting rights, environmental justice, criminal justice reform, healthcare, and economic equity.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "North Carolina Black Alliance Inc",
       "Affiliated C4": "",
@@ -753,7 +753,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Ohio's progressive donor collaborative — pooling institutional and individual resources to fund and align progressive infrastructure organizations working toward policy change across the state.",
+      "One-Sentence Pitch": "An Ohio donor collaborative pooling resources to fund and align progressive infrastructure organizations working on policy change across the state.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Ohio Progressive Collaborative Education Fund",
       "Affiliated C4": "Ohio Progressive Collaborative",
@@ -786,7 +786,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "A nonpartisan pooled fund resourcing state-level organizations fighting anti-voting laws and building multiracial democracy — founded in 2021 in response to January 6th and the wave of Republican voter suppression legislation that followed.",
+      "One-Sentence Pitch": "A pooled fund supporting state-level organizations working against voter suppression and for multiracial democracy, founded in 2021 in response to January 6th and subsequent restrictive voting legislation.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Pro-Democracy Center",
       "Affiliated C4": "Pro-Democracy Campaign",
@@ -819,7 +819,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Ralph Nader's consumer advocacy organization — a fifty-year institution using litigation, research, and lobbying to fight corporate power, defend democracy, and champion government accountability for everyday Americans.",
+      "One-Sentence Pitch": "A national consumer advocacy organization using litigation, research, and lobbying to challenge corporate power and promote government accountability, founded by Ralph Nader in 1971.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Public Citizen Foundation Inc",
       "Affiliated C4": "Public Citizen Inc",
@@ -852,7 +852,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The first funding collaborative dedicated to building progressive civic and political power in rural America — grantmaking through the Heartland Fund (c3) and Rural Victory Fund (c4) to organizations in small cities, towns, and rural communities across 23+ states.",
+      "One-Sentence Pitch": "A funding collaborative supporting civic and political organizing in rural America, grantmaking through the Heartland Fund (c3) and Rural Victory Fund (c4) to organizations in small cities and rural communities across 23+ states.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Heartland Fund",
       "Affiliated C4": "Rural Victory Fund",
@@ -885,7 +885,7 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "Pennsylvania's vote-by-mail and voter protection organization — combating disenfranchisement and voter intimidation with a focus on BIPOC and historically marginalized voters in a state that decides presidential elections.",
+      "One-Sentence Pitch": "A Pennsylvania organization focused on vote-by-mail access and voter protection, with emphasis on BIPOC and historically marginalized voters.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "Voter Project Fund",
       "Affiliated C4": "The Voter Project",
@@ -918,181 +918,181 @@
       "Org Health": "",
       "Transparency": "",
       "Donor Leverage": "",
-      "One-Sentence Pitch": "The preeminent national law and policy institute defending voting rights, fighting money in politics, and challenging mass incarceration — part think tank, part litigation shop, part policy advocacy hub at NYU School of Law since 1995.",
+      "One-Sentence Pitch": "A national law and policy institute at NYU School of Law working on voting rights, campaign finance, and criminal justice reform through research, litigation, and policy advocacy since 1995.",
       "Key Risks & Flags": "",
       "C3 Legal Name": "William J Brennan Jr Center for Justice Inc",
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
       "Key Contact": ""
+    },
+    {
+      "Org ID": "ORG-029",
+      "Org Name": "Siembra NC",
+      "Include": "Tier 1",
+      "Scope": "State",
+      "Funded By": "",
+      "Website": "https://siembranc.org",
+      "Founded": "",
+      "Tax Status": "501(c)(3) + 501(c)(4) + PAC",
+      "Donations Tax Deductible": "",
+      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/872266951",
+      "Category": "",
+      "Sub-type": "",
+      "Primary Focus": "",
+      "Issue / Constituency Tags": "",
+      "Involves Primaries?": "",
+      "States of Operation": "NC",
+      "Geographic Relevance": "",
+      "Investment Track": "",
+      "Recommended Gift Size Range": "",
+      "Evidence Tier": "",
+      "Evidence Summary": "",
+      "Org Health": "",
+      "Transparency": "",
+      "Donor Leverage": "",
+      "One-Sentence Pitch": "A North Carolina Latinx-led organization recruiting community members into multiracial social justice movements, with work spanning immigration, labor, and civic engagement alongside Black-led organizations in the state.",
+      "Key Risks & Flags": "",
+      "C3 Legal Name": "Somos Siembra",
+      "Affiliated C4": "Siembra NC",
+      "Fiscal Sponsor": "",
+      "2026 Priorities": "",
+      "Key Contact": ""
+    },
+    {
+      "Org ID": "ORG-030",
+      "Org Name": "One Pennsylvania Activists United",
+      "Include": "Tier 1",
+      "Scope": "State",
+      "Funded By": "",
+      "Website": "https://www.onepa.org",
+      "Founded": "",
+      "Tax Status": "501(c)(3) + 501(c)(4)",
+      "Donations Tax Deductible": "",
+      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/882735817",
+      "Category": "",
+      "Sub-type": "",
+      "Primary Focus": "",
+      "Issue / Constituency Tags": "",
+      "Involves Primaries?": "",
+      "States of Operation": "PA",
+      "Geographic Relevance": "",
+      "Investment Track": "",
+      "Recommended Gift Size Range": "",
+      "Evidence Tier": "",
+      "Evidence Summary": "",
+      "Org Health": "",
+      "Transparency": "",
+      "Donor Leverage": "",
+      "One-Sentence Pitch": "A statewide organization uniting low-income and working-class Pennsylvanians around economic justice, corporate accountability, and civic participation through political education and community organizing.",
+      "Key Risks & Flags": "",
+      "C3 Legal Name": "One Pennsylvania Activists United",
+      "Affiliated C4": "Organize Pennsylvania (d/b/a One Pennsylvania)",
+      "Fiscal Sponsor": "",
+      "2026 Priorities": "",
+      "Key Contact": ""
+    },
+    {
+      "Org ID": "ORG-031",
+      "Org Name": "Power Coalition for Equity and Justice",
+      "Include": "Tier 1",
+      "Scope": "State",
+      "Funded By": "",
+      "Website": "https://powercoalition.org",
+      "Founded": "",
+      "Tax Status": "501(c)(3)",
+      "Donations Tax Deductible": "",
+      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/832511340",
+      "Category": "",
+      "Sub-type": "",
+      "Primary Focus": "",
+      "Issue / Constituency Tags": "",
+      "Involves Primaries?": "",
+      "States of Operation": "LA",
+      "Geographic Relevance": "",
+      "Investment Track": "",
+      "Recommended Gift Size Range": "",
+      "Evidence Tier": "",
+      "Evidence Summary": "",
+      "Org Health": "",
+      "Transparency": "",
+      "Donor Leverage": "",
+      "One-Sentence Pitch": "Louisiana's statewide civic engagement table, coordinating community organizing, voter mobilization, and policy advocacy with a focus on communities of color.",
+      "Key Risks & Flags": "",
+      "C3 Legal Name": "Power Coalition for Equity and Justice",
+      "Affiliated C4": "",
+      "Fiscal Sponsor": "",
+      "2026 Priorities": "",
+      "Key Contact": ""
+    },
+    {
+      "Org ID": "ORG-032",
+      "Org Name": "Arizona Center for Empowerment",
+      "Include": "Tier 1",
+      "Scope": "State",
+      "Funded By": "",
+      "Website": "https://www.empoweraz.org",
+      "Founded": "",
+      "Tax Status": "501(c)(3)",
+      "Donations Tax Deductible": "",
+      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/272366780",
+      "Category": "",
+      "Sub-type": "",
+      "Primary Focus": "",
+      "Issue / Constituency Tags": "",
+      "Involves Primaries?": "",
+      "States of Operation": "AZ",
+      "Geographic Relevance": "",
+      "Investment Track": "",
+      "Recommended Gift Size Range": "",
+      "Evidence Tier": "",
+      "Evidence Summary": "",
+      "Org Health": "",
+      "Transparency": "",
+      "Donor Leverage": "",
+      "One-Sentence Pitch": "An Arizona organization focused on undocumented youth and LGBTQ communities, working on economic, social, and racial justice through leadership development and civic engagement.",
+      "Key Risks & Flags": "",
+      "C3 Legal Name": "Arizona Center for Empowerment",
+      "Affiliated C4": "",
+      "Fiscal Sponsor": "",
+      "2026 Priorities": "",
+      "Key Contact": ""
+    },
+    {
+      "Org ID": "ORG-033",
+      "Org Name": "Bigger Tent Education Fund",
+      "Include": "Tier 1",
+      "Scope": "National",
+      "Funded By": "",
+      "Website": "https://biggertenteducation.org",
+      "Founded": "",
+      "Tax Status": "501(c)(3) via GoodNation Foundation",
+      "Donations Tax Deductible": "",
+      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/814768448",
+      "Category": "",
+      "Sub-type": "",
+      "Primary Focus": "",
+      "Issue / Constituency Tags": "",
+      "Involves Primaries?": "",
+      "States of Operation": "National",
+      "Geographic Relevance": "",
+      "Investment Track": "",
+      "Recommended Gift Size Range": "",
+      "Evidence Tier": "",
+      "Evidence Summary": "",
+      "Org Health": "",
+      "Transparency": "",
+      "Donor Leverage": "",
+      "One-Sentence Pitch": "A civic engagement fund helping state and local organizations coordinate nonpartisan efforts to build civic capacity in working-class communities, with a focus on values and priorities shared across ideologically diverse stakeholders.",
+      "Key Risks & Flags": "",
+      "C3 Legal Name": "Bigger Tent Education Fund (a project of GoodNation Foundation)",
+      "Affiliated C4": "Bigger Tent Initiative",
+      "Fiscal Sponsor": "GoodNation Foundation",
+      "2026 Priorities": "",
+      "Key Contact": ""
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
