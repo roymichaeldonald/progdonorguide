@@ -11,7 +11,6 @@
       "Website": "https://alaskavoterhub.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/133191113",
       "Category": "",
       "Sub-type": "",
@@ -33,7 +32,9 @@
       "Affiliated C4": "Neo Philanthropy Action Fund Inc.",
       "Fiscal Sponsor": "Neo Philanthropy",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "Test",
+      "Contact Email": "test@test.com"
     },
     {
       "Org ID": "ORG-002",
@@ -44,7 +45,6 @@
       "Website": "https://allvotingislocal.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/873908699",
       "Category": "",
       "Sub-type": "",
@@ -66,7 +66,9 @@
       "Affiliated C4": "All Voting Is Local Action",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-003",
@@ -77,7 +79,6 @@
       "Website": "https://americanoversight.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/815294830",
       "Category": "",
       "Sub-type": "",
@@ -99,7 +100,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-004",
@@ -110,7 +113,6 @@
       "Website": "https://www.asiansrisingga.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "Yes",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/333837278",
       "Category": "",
       "Sub-type": "",
@@ -132,7 +134,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-005",
@@ -143,7 +147,6 @@
       "Website": "https://chispaaz.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/521379661",
       "Category": "",
       "Sub-type": "",
@@ -165,7 +168,9 @@
       "Affiliated C4": "League of Conservation Voters",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-006",
@@ -176,7 +181,6 @@
       "Website": "https://civictn.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/842967597",
       "Category": "",
       "Sub-type": "",
@@ -198,7 +202,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-007",
@@ -209,7 +215,6 @@
       "Website": "https://democracyforward.org",
       "Founded": "",
       "Tax Status": "501(c)(3) + 501(c)(4)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/821007988",
       "Category": "",
       "Sub-type": "",
@@ -231,7 +236,9 @@
       "Affiliated C4": "Democracy Forward",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-008",
@@ -242,7 +249,6 @@
       "Website": "https://fairelectionscenter.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/815447067",
       "Category": "",
       "Sub-type": "",
@@ -264,7 +270,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-009",
@@ -275,7 +283,6 @@
       "Website": "https://www.fairfight.com",
       "Founded": "",
       "Tax Status": "501(c)(3) via Tides / 501(c)(4) direct",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/510198509",
       "Category": "",
       "Sub-type": "",
@@ -297,7 +304,9 @@
       "Affiliated C4": "Fair Fight Action Inc",
       "Fiscal Sponsor": "Tides Foundation",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-010",
@@ -308,7 +317,6 @@
       "Website": "https://gcvedfund.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/582559965",
       "Category": "",
       "Sub-type": "",
@@ -330,7 +338,9 @@
       "Affiliated C4": "Georgia Conservation Voters Inc",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-011",
@@ -341,7 +351,6 @@
       "Website": "https://ilapmaine.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/223260883",
       "Category": "",
       "Sub-type": "",
@@ -363,7 +372,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-012",
@@ -374,7 +385,6 @@
       "Website": "https://indivisiblecivics.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/822355901",
       "Category": "",
       "Sub-type": "",
@@ -396,7 +406,9 @@
       "Affiliated C4": "Indivisible Project",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-013",
@@ -407,7 +419,6 @@
       "Website": "https://leadlocally.org",
       "Founded": "",
       "Tax Status": "501(c)(3) via Tides",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/510198509",
       "Category": "",
       "Sub-type": "",
@@ -429,7 +440,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "Tides Foundation",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-014",
@@ -440,7 +453,6 @@
       "Website": "https://www.lcv.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/521379661",
       "Category": "",
       "Sub-type": "",
@@ -462,7 +474,9 @@
       "Affiliated C4": "League of Conservation Voters",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-015",
@@ -473,7 +487,6 @@
       "Website": "https://www.mecep.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/223317572",
       "Category": "",
       "Sub-type": "",
@@ -495,7 +508,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-016",
@@ -506,7 +521,6 @@
       "Website": "https://mprc.me",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/222586108",
       "Category": "",
       "Sub-type": "",
@@ -528,7 +542,9 @@
       "Affiliated C4": "Maine People's Alliance",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-017",
@@ -539,7 +555,6 @@
       "Website": "https://movementvoterfund.org",
       "Founded": "",
       "Tax Status": "501(c)(3) via Tides",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/510198509",
       "Category": "",
       "Sub-type": "",
@@ -561,7 +576,9 @@
       "Affiliated C4": "Movement Voter Project",
       "Fiscal Sponsor": "Tides Foundation",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-018",
@@ -572,7 +589,6 @@
       "Website": "https://movement.vote",
       "Founded": "",
       "Tax Status": "501(c)(4)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/371697474",
       "Category": "",
       "Sub-type": "",
@@ -594,7 +610,9 @@
       "Affiliated C4": "Movement Voter Project",
       "Fiscal Sponsor": "Tides Foundation (for c3 activity)",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-019",
@@ -605,7 +623,6 @@
       "Website": "https://www.moxiefund.org",
       "Founded": "",
       "Tax Status": "501(c)(3) via New Venture Fund",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/205806345",
       "Category": "",
       "Sub-type": "",
@@ -627,7 +644,9 @@
       "Affiliated C4": "Moxie Action Fund (via Sixteen Thirty Fund)",
       "Fiscal Sponsor": "New Venture Fund",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-020",
@@ -638,7 +657,6 @@
       "Website": "https://nfcb.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/521060366",
       "Category": "",
       "Sub-type": "",
@@ -660,7 +678,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-021",
@@ -671,7 +691,6 @@
       "Website": "https://ncaat.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/813125435",
       "Category": "",
       "Sub-type": "",
@@ -693,7 +712,9 @@
       "Affiliated C4": "NCAAT in Action",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-022",
@@ -704,7 +725,6 @@
       "Website": "https://ncblackalliance.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/562210571",
       "Category": "",
       "Sub-type": "",
@@ -726,7 +746,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-023",
@@ -737,7 +759,6 @@
       "Website": "",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/825116453",
       "Category": "",
       "Sub-type": "",
@@ -759,7 +780,9 @@
       "Affiliated C4": "Ohio Progressive Collaborative",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-024",
@@ -770,7 +793,6 @@
       "Website": "https://www.prodemocracy.us",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/932176499",
       "Category": "",
       "Sub-type": "",
@@ -792,7 +814,9 @@
       "Affiliated C4": "Pro-Democracy Campaign",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-025",
@@ -803,7 +827,6 @@
       "Website": "https://www.citizen.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/521263996",
       "Category": "",
       "Sub-type": "",
@@ -825,7 +848,9 @@
       "Affiliated C4": "Public Citizen Inc",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-026",
@@ -836,7 +861,6 @@
       "Website": "https://ruraldemocracyinitiative.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/471397390",
       "Category": "",
       "Sub-type": "",
@@ -858,7 +882,9 @@
       "Affiliated C4": "Rural Victory Fund",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-027",
@@ -869,7 +895,6 @@
       "Website": "https://www.thevoterproject.com",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/863082391",
       "Category": "",
       "Sub-type": "",
@@ -891,7 +916,9 @@
       "Affiliated C4": "The Voter Project",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-028",
@@ -902,7 +929,6 @@
       "Website": "https://www.brennancenter.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/133839293",
       "Category": "",
       "Sub-type": "",
@@ -924,7 +950,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-029",
@@ -935,7 +963,6 @@
       "Website": "https://siembranc.org",
       "Founded": "",
       "Tax Status": "501(c)(3) + 501(c)(4) + PAC",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/872266951",
       "Category": "",
       "Sub-type": "",
@@ -957,7 +984,9 @@
       "Affiliated C4": "Siembra NC",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-030",
@@ -968,7 +997,6 @@
       "Website": "https://www.onepa.org",
       "Founded": "",
       "Tax Status": "501(c)(3) + 501(c)(4)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/882735817",
       "Category": "",
       "Sub-type": "",
@@ -990,7 +1018,9 @@
       "Affiliated C4": "Organize Pennsylvania (d/b/a One Pennsylvania)",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-031",
@@ -1001,7 +1031,6 @@
       "Website": "https://powercoalition.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/832511340",
       "Category": "",
       "Sub-type": "",
@@ -1023,7 +1052,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-032",
@@ -1034,7 +1065,6 @@
       "Website": "https://www.empoweraz.org",
       "Founded": "",
       "Tax Status": "501(c)(3)",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/272366780",
       "Category": "",
       "Sub-type": "",
@@ -1056,7 +1086,9 @@
       "Affiliated C4": "",
       "Fiscal Sponsor": "",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     },
     {
       "Org ID": "ORG-033",
@@ -1067,7 +1099,6 @@
       "Website": "https://biggertenteducation.org",
       "Founded": "",
       "Tax Status": "501(c)(3) via GoodNation Foundation",
-      "Donations Tax Deductible": "",
       "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/814768448",
       "Category": "",
       "Sub-type": "",
@@ -1089,43 +1120,12 @@
       "Affiliated C4": "Bigger Tent Initiative",
       "Fiscal Sponsor": "GoodNation Foundation",
       "2026 Priorities": "",
-      "Key Contact": ""
+      "Key Contact": "",
+      "Contact Name": "",
+      "Contact Email": ""
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
