@@ -1,6 +1,6 @@
 {
   "_exported": "2026-06-25",
-  "_count": 33,
+  "_count": 32,
   "orgs": [
     {
       "Org ID": "ORG-011",
@@ -738,41 +738,6 @@
       "Contact Phone": ""
     },
     {
-      "Org ID": "ORG-017",
-      "Org Name": "Movement Voter Fund",
-      "Include": "Tier 1",
-      "Scope": "National",
-      "Funded By": "",
-      "Website": "https://movementvoterfund.org",
-      "Founded": "",
-      "Tax Status": "501(c)(3) via Tides",
-      "ProPublica URL": "https://projects.propublica.org/nonprofits/organizations/510198509",
-      "Category": "",
-      "Sub-type": "",
-      "Primary Focus": "",
-      "Issue / Constituency Tags": "",
-      "Involves Primaries?": "",
-      "States of Operation": "National",
-      "Geographic Relevance": "",
-      "Investment Track": "",
-      "Recommended Gift Size Range": "",
-      "Evidence Tier": "",
-      "Evidence Summary": "",
-      "Org Health": "",
-      "Transparency": "",
-      "Donor Leverage": "",
-      "One-Sentence Pitch": "",
-      "Key Risks & Flags": "",
-      "C3 Legal Name": "Movement Voter Fund (a fund of Tides Foundation)",
-      "Affiliated C4": "Movement Voter Project",
-      "Fiscal Sponsor": "Tides Foundation",
-      "2026 Priorities": "",
-      "Key Contact": "",
-      "Contact Name": "REMOVE THIS ONE",
-      "Contact Email": "REMOVE THIS ONE",
-      "Contact Phone": ""
-    },
-    {
       "Org ID": "ORG-020",
       "Org Name": "National Federation of Community Broadcasters",
       "Include": "Tier 1",
@@ -1159,6 +1124,41 @@
     }
   ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
